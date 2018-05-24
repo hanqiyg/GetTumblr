@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "498939760280",
+    "firebase_url": "https://gettumblr-b63f5.firebaseio.com",
+    "project_id": "gettumblr-b63f5",
+    "storage_bucket": "gettumblr-b63f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498939760280:android:8538bb6ee76010ce",
+        "android_client_info": {
+          "package_name": "com.icesoft.gettumblr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498939760280-udmr6ckf9jnjm8q92fno15ra4mlchd3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icesoft.gettumblr",
+            "certificate_hash": "216b764cef4b07e6f9f9ef5bdabd249890c27199"
+          }
+        },
+        {
+          "client_id": "498939760280-4ecjimdhtk0e9kjir35f15mhc9rj31pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498939760280-4ecjimdhtk0e9kjir35f15mhc9rj31pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

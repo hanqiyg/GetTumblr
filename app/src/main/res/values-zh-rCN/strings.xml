@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">get汤不热</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">仪表板</string>
+    <string name="title_notifications">通知</string>
+    <string name="link_not_recognized">无法识别链接[ %1$s ]</string>
+    <string name="success">成功</string>
+    <string name="failure">失败</string>
+</resources>

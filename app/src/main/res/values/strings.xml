@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GetTumblr</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="link_not_recognized">I can not recognize link [ %1$s ].</string>
+    <string name="success">Success</string>
+    <string name="failure">Failure</string>
+    <string name="not_found">Error occur when get links.\nMaybe because the post is a private post.\nPlease re-blog this post first,then try again.</string>
+    <string name="not_found_title">NOTFOUND</string>
+    <string name="source_post">Source:</string>
+    <string name="notecount_post">Notes</string>
+    <string name="redownload_message">The content is already downloaded, do you want to redo it?</string>
+</resources>
