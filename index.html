@@ -1,7 +1,100 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport"content="width=device-width，initial-scale=1"/>
+    <script src="webjars/jquery/3.1.1/jquery.min.js"></script>
+    <script src="webjars/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="webjars/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <meta charset="UTF-8">
+    <title>Menu</title>
 </head>
 <body>
-<h1>test github pages</h1>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="...">
+            </a>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="col">
+    <div class="col-md-3">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Minner</h3>
+        </div>
+        <div class="panel-body">
+            <div><a data-toggle="modal" data-target="#update">Miner State</a></div>
+            <div><a href="/miner/state">Miner State</a></div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">User</h3>
+        </div>
+        <div class="panel-body">
+            <a href="/user/list">User List</a>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Utils</h3>
+            </div>
+            <div class="panel-body">
+                <a href="/address/new">New Address</a>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Pool</h3>
+                </div>
+                <div class="panel-body">
+                    <a href="/pool/list">Pool List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="update" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Miner State</h4>
+            </div>
+            <div class="modal-body">
+                <span class="label label-primary">TotalCount</span>
+                <span class="label label-primary">PooledCount</span>
+                <span class="label label-primary">SingledCount</span>
+                <span class="label label-primary">FailedCount</span>
+                <span class="label label-warning">TotalCP</span>
+                <span class="label label-warning">pooledCP</span>
+                <span class="label label-warning">singledCP</span>
+                <span class="label label-warning">failedCP</span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal -->
+</div>
+<!-- 模态框（Modal）end -->
+<script>
+     function targetto(id){
+             $("#showModal").modal({
+                 remote: "showAction.action?id="+id
+             });
+</script>
 </body>
 </html>
